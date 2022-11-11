@@ -5,10 +5,10 @@
 
 TEST_CASE("A")
 {
-    Coord3D point1 = {10, 20, 30};
-    CHECK(((length(&point1) - 37.4166) < 0.01));
-    Coord3D point2 = {15, 20, 25};
-    CHECK(((length(&point1) - 45.5522) < 0.01));
+    Coord3D point1 = {50, 67, 78};
+    CHECK(((length(&point1) - 114.337) < 0.01));
+    Coord3D point2 = {87, 9, 81};
+    CHECK(((length(&point1) - 119.21) < 0.01));
 }
 
 TEST_CASE("B")
